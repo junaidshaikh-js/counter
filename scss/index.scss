@@ -1,0 +1,34 @@
+// css reset
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+// import font
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+// variables
+$ff-family: "Roboto", sans-serif;
+$primary-color: #102a42;
+$secondary-color: #222222;
+$white: #ffffff;
+
+body {
+  background-color: #f1f5f8;
+}
+
+// counter
+.counter-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
