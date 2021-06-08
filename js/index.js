@@ -6,26 +6,30 @@ const btnContainer = document.querySelector(".btn-container");
 const increase = () => {
   // unary + operator convert the string into number
   +countNumber.innerHTML++;
-
-  // change color if number is greater than 0
-  if (+countNumber.innerHTML > 0) {
-    countNumber.style.color = "green";
-  }
+  decideColor(+countNumber.innerHTML);
 };
 
 // decrease function
 const decrease = () => {
   +countNumber.innerHTML--;
-  if (+countNumber.innerHTML < 0) {
-    countNumber.style.color = "red";
-  }
+  decideColor(+countNumber.innerHTML);
 };
 
 // reset function
 const reset = () => {
   countNumber.innerHTML = 0;
-  countNumber.style.color = "#102a42";
+  decideColor(+countNumber.innerHTML);
 };
+
+function decideColor(num) {
+  if (num > 0) {
+    countNumber.style.color = "green";
+  } else if (num < 0) {
+    countNumber.style.color = "red";
+  } else if (num === 0) {
+    countNumber.style.color = "#102a42";
+  }
+}
 
 // handle operations
 function count(e) {
