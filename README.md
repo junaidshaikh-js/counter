@@ -10,7 +10,7 @@ This project is a part of 15 vanilla JavaScript projects.
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Other projects in this series](#other-projects)
+- [Other projects](#other-projects)
 - [Author](#author)
 
 ## Overview
@@ -42,6 +42,16 @@ I had practised event delegation in this project. In event delegation if you hav
 
 - [view](https://junaidshaikh-js.github.io/color-flipper/index.html)
 - [Github](https://github.com/junaidshaikh-js/color-flipper)
+
+2. Reviews
+
+- [view](https://junaidshaikh-js.github.io/reviews/)
+- [Github](https://github.com/junaidshaikh-js/reviews)
+
+3. Navbar
+
+- [view](https://junaidshaikh-js.github.io/navbar/)
+- [Github](https://github.com/junaidshaikh-js/navbar)
 
 ## Author
 
